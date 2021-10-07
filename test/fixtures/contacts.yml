@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  company: one
+  title: MyString
+  phone_email: MyText
+  date_of_last_contact: 2021-10-07 13:52:42
+
+two:
+  name: MyString
+  company: two
+  title: MyString
+  phone_email: MyText
+  date_of_last_contact: 2021-10-07 13:52:42

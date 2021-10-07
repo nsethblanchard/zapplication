@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_10_07_175014) do
+ActiveRecord::Schema.define(version: 2021_10_07_175242) do
 
   create_table "applications", force: :cascade do |t|
     t.string "position_title"
@@ -72,4 +72,5 @@ ActiveRecord::Schema.define(version: 2021_10_07_175014) do
     t.index ["email"], name: "unique_emails", unique: true
   end
 
+  add_foreign_key "contacts", "companies"
 end
