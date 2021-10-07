@@ -49,7 +49,7 @@ ActiveRecord::Schema.define(version: 2021_10_07_175242) do
     t.integer "company_id", null: false
     t.string "title"
     t.text "phone_email"
-    t.datetime "date_of_last_contact"
+    t.date "date_of_last_contact"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["company_id"], name: "index_contacts_on_company_id"
